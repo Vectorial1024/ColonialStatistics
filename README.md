@@ -11,3 +11,5 @@ Currently we have the following:
 - Colonist/Prisoner count
   - If have Ideology DLC, also slaves count
   - If have Anomaly DLC, also subhuman count (aka "mutants")
+- Wealth per capita
+  - Map wealth divided by free colonists
