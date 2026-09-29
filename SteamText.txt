@@ -1,0 +1,26 @@
+Extra statistics printing
+
+Package ID: V1024.ColonialStatistics
+
+[h1]Quick Info and Compatibility[/h1]
+[list]
+[*]Requires Harmony; place this mod below Harmony
+[*]Save-file independence: completely safe to add to or remove from existing savegames
+[*]Mod-file independence: does not interact with other mods in any way whatsoever
+[*]Multiplayer: YES
+[*]GitHub repo is here: https://github.com/Vectorial1024/ColonialStatistics
+[/list]
+
+[h1]Mod Description[/h1]
+RimWorld 1.6 performance improvements has enabled mega colonies (e.g. 20+ pawns).
+With this, extra statistics is printed to let us understand how well the colony is doing.
+
+Find the statistics at Main Tab -> History -> Statistics.
+
+[h1]Frequently-Asked Questions[/h1]
+
+When calculating "per capita", we only count and divide by free colonists.
+
+[h1]Credits[/h1]
+Thanks to u/ConsiderationEast773 on Reddit:
+[quote=author]It would be interesting to introduce some GDP like indicator in rimworld [...][/quote]
