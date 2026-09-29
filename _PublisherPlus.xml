@@ -4,5 +4,6 @@
     <exclude>.git</exclude>
     <exclude>README.md</exclude>
     <exclude>Source</exclude>
+    <exclude>SteamText.txt</exclude>
   </Excluded>
 </Configuration>
