@@ -1,4 +1,4 @@
-# ColonialStatistics
+# Colonial Statistics
 A RimWorld mod to track some map-bound statistics
 
 - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3810208956
