@@ -27,6 +27,14 @@ namespace ColonialStatistics
                 var colonistCount = theMap.mapPawns.FreeColonistsCount;
                 builder.AppendLine("Colonists: " + theMap.mapPawns.FreeColonistsCount);
                 builder.AppendLine("Prisoners: " + theMap.mapPawns.PrisonersOfColonyCount);
+                if (ModsConfig.IdeologyActive)
+                {
+                    builder.AppendLine("Slaves (Ideology): " + theMap.mapPawns.SlavesOfColonySpawned.Count);
+                }
+                if (ModsConfig.AnomalyActive)
+                {
+                    builder.AppendLine("Subhumans (Anomaly): " + theMap.mapPawns.SpawnedColonySubhumansPlayerControlled.Count);
+                }
 
                 // count wealth per pawn
                 var totalWealth = theMap.wealthWatcher.HealthTotal;
