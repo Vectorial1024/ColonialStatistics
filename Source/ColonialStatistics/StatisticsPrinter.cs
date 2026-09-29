@@ -37,9 +37,17 @@ namespace ColonialStatistics
                 }
 
                 // count wealth per pawn
-                var totalWealth = theMap.wealthWatcher.HealthTotal;
-                var wealthPerGuy = totalWealth / colonistCount;
-                builder.AppendLine("Wealth per capita: " + wealthPerGuy);
+                if (colonistCount > 0)
+                {
+                    var totalWealth = theMap.wealthWatcher.HealthTotal;
+                    var wealthPerGuy = totalWealth / colonistCount;
+                    builder.AppendLine("Wealth per capita: " + wealthPerGuy);
+                }
+                else
+                {
+                    // div0 protection
+                    builder.AppendLine("Wealth per capita: N/A");
+                }
             }
             else
             {
