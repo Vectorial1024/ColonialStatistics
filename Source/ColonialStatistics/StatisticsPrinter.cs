@@ -1,4 +1,6 @@
 using System.Text;
+using RimWorld;
+using Verse;
 
 namespace ColonialStatistics
 {
@@ -14,7 +16,27 @@ namespace ColonialStatistics
             builder.AppendLine();
 
             // mod custom printing follows
-            builder.AppendLine("Hello World");
+            builder.AppendLine("Mod active: Colonial Statistics");
+            builder.AppendLine();
+            var theMap = Find.CurrentMap;
+            if (theMap != null)
+            {
+                builder.AppendLine("Map statistics:");
+
+                // count colonists etc
+                var colonistCount = theMap.mapPawns.FreeColonistsCount;
+                builder.AppendLine("Colonists: " + theMap.mapPawns.FreeColonistsCount);
+                builder.AppendLine("Prisoners: " + theMap.mapPawns.PrisonersOfColonyCount);
+
+                // count wealth per pawn
+                var totalWealth = theMap.wealthWatcher.HealthTotal;
+                var wealthPerGuy = totalWealth / colonistCount;
+                builder.AppendLine("Wealth per capita: " + wealthPerGuy);
+            }
+            else
+            {
+                builder.AppendLine("(Not in map!)");
+            }
         }
     }
 }
