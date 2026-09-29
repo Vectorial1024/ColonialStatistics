@@ -17,6 +17,9 @@ With this, extra statistics is printed to let us understand how well the colony 
 
 Find the statistics at Main Tab -> History -> Statistics.
 
+Check the GitHub README for a list of printed statistics.
+Alternatively, the in-game text box already prints you the statistics.
+
 [h1]Frequently-Asked Questions[/h1]
 
 When calculating "per capita", we only count and divide by free colonists.
