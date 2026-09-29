@@ -2,6 +2,7 @@
   <PropertyGroup>
     <ProjectGuid>{DB015F11-230B-4814-AA30-3B46609CEC53}</ProjectGuid>
     <TargetFramework>net472</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AssemblyTitle>ColonialStatistics</AssemblyTitle>
     <Product>ColonialStatistics</Product>
     <Copyright>Copyright ©  2026</Copyright>
