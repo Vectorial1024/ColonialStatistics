@@ -18,8 +18,10 @@ Find the statistics at Main Tab -> History -> Statistics.
 
 Check the GitHub README for a list of printed statistics.
 Alternatively, the in-game text box already prints you the statistics.
+
 [h1]Frequently-Asked Questions[/h1]
 When calculating "per capita", we only count and divide by free colonists.
+
 [h1]Credits[/h1]
 Thanks to u/ConsiderationEast773 on Reddit:
 [quote]It would be interesting to introduce some GDP like indicator in rimworld [...][/quote]
