@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>V1024.ColonialStatistics</packageId>
+	<name>Colonial Statistics</name>
+	<author>Vectorial1024</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modVersion>1.0.0</modVersion>
+	<description>More statistics about your RimWorld map.</description>
+	<url>https://github.com/Vectorial1024/ColonialStatistics</url>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>
